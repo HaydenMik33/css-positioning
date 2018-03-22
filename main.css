@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;   
+}
+.blueBox nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color:white;
+    display: inline-block;
+}
+ul li{
+    display :inline-block;
+    padding:15px;
+    padding-top:20px;
+    font-family: 'Poppins',sans-serif;
+    font-size :12px;
+}
+.firstTextBox{
+    width:500px;
+
+    margin :0 auto;
+}
+ul .button a{
+border-width: 3px;
+
+border-style:solid;
+border-color: white; 
+position : absolute;
+right: 50px;
+padding:7px;
+border-radius: 25px;
+}
+li a{
+    display:inline-block;
+    color: white;
+
+    text-decoration: none;
+}
+h1{
+  font-size: 50px;
+}
+h2{
+    font-size:30px;
+}
+.content .authorTag{
+    font-size :8px;
+    font-family: 'Anton',sans-serif;
+}
+.icon img{
+  width :60px;
+  height: 60px;
+  position: absolute;
+  top:100px;
+  
+}
+.startE{
+
+background-color: white;
+color:blue;
+right: 50px;
+padding: 15px 50px;
+border-radius: 25px;
+border :none;
+
+}
+.fixedNav{
+    position:fixed;
+    bottom:20px;
+    left:0px;
+    background-color: white;
+    color: navy;
+    padding: 2px;
+    font-size:10px;
+    font-weight: bold;
+}
+
+.blueBox{
+    background:
+linear-gradient(135deg, #0828CC 22px, #06386b 22px, #06386b 24px, transparent 24px, transparent 67px, #06386b 67px, #06386b 69px, transparent 69px),
+linear-gradient(225deg, #0828CC 22px, #06386b 22px, #06386b 24px, transparent 24px, transparent 67px, #06386b 67px, #06386b 69px, transparent 69px)0 64px;
+background-color:#0828CC;
+background-size: 64px 128px;
+
+height: 700px;
+text-align: center;
+}
+.blueBox .content{
+    color:white;
+
+}
+.colorOutline{
+    border-width: 20px;
+    border-style:solid;
+    
+}
+.content{
+    text-align: center;
+    padding:100px;
+   margin: 0px;
+   font-family: 'Poppins', sans-serif;
+}
+.colorOutline .mainContent{
+    text-align: left;
+}
+
+.outLine1{
+    border-color: #0828CC; 
+}
+.outLine2{
+   border-color :red;
+}
+.outLine3{
+ border-color: purple;
+}
+
+.outLine4{
+    border-color: seagreen;
+}
+
+.outLine5{
+    border-color: #0828CC;
+}
